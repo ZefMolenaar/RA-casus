@@ -7,7 +7,7 @@
 - `Bronnen/` - Gebruikte bronnen
 - `Data/Processed` - Verwerkte datasets gegenereerd met scripts 
 - `Data/Raw` – De gebruikte ruwe data
-- `Data_Stewardship/` - Hierin zit een word document waar data stewardship wordt uitgelegt.
+- `Uitleg competentie beheren/` - Uitleg competentie beheren 
 - `Resultaten/` - Verkregen grafieken en tabellen
 - `Script/` – Gebruikte script om de transcriptomics-analyse mee uit te voeren
 
