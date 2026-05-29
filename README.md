@@ -69,7 +69,9 @@ In de Pathview-figuur [figuur](Resultaten/hsa05323.pathview.multi.png)van de NOD
 ## Conclusie:
 In de [volcanoplot](Resultaten/VolcanoplotCASUS.png) toont differentiële expressie van 29.407 variabelen. De rode stippen zijn biologisch en statistisch significant. Linksboven vallen de sterk downgereguleerde genen ANKRD30BL en MT-ND6 op door hun extreem hoge significantie. Rechtsboven tonen upgereguleerde genen, waaronder SRGN en immunoglobuline-gerelateerde genen (IGHV3-53), een duidelijke expressietoename.
 
-De KEGG-pathwaydiagram [figuur](Resultaten/hsa05323.pathview.multi.png)toont een sterke upregulatie (felrood, expressie $\ge 5$) van genen binnen de pathologie van reumatoïde artritis. De data laat zien dat immuuncellen, cytokines (zoals IL6, TNF\alpha) en destructieve enzymen (MMP1/3) in het synovium massaal zijn geactiveerd, wat leidt tot gewrichtsontsteking en botafbraak.
+De KEGG-pathwaydiagram [figuur](Resultaten/hsa05323.pathview.multi.png)toont een sterke upregulatie (felrood, expressie\ge5) van genen binnen de pathologie van reumatoïde artritis. De data laat zien dat immuuncellen, cytokines (zoals IL6, TNF\alpha) en destructieve enzymen (MMP1/3) in het synovium massaal zijn geactiveerd, wat leidt tot gewrichtsontsteking en botafbraak.
+
+De GO-enrichment-dotplot [dotplot](Resultaten/Goplot.png) toont significant verrijkte immuunprocessen. De x-as representeert het percentage 'hits' per categorie; de bolgrootte weerspiegelt het genaantal (Count). Processen rondom lymfocyten- en leukocytenactivatie vallen op door een lage p-waarde (donkerblauw/zwart, hoge significantie), wat duidt op een sterke activering van de adaptieve immuunrespons.
 
 ## Uitleg competentie beheren 
 (zie voor hulpvragen het voorbeeld):
