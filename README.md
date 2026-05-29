@@ -5,11 +5,10 @@
 
 - `Assets/` - Overige documenten voor opmaak
 - `Bronnen/` - Gebruikte bronnen
-- `Data/Processed` - Verwerkte datasets gegenereerd met scripts 
-- `Data/Raw` – De gebruikte ruwe data
+- `Data` – De gebruikte ruwe data
 - `Uitleg competentie beheren/` - Uitleg competentie beheren 
 - `Resultaten/` - Verkregen grafieken en tabellen
-- `Script/` – Gebruikte script om de transcriptomics-analyse mee uit te voeren
+- `Scripts/` – Gebruikte script om de transcriptomics-analyse mee uit te voeren
 
 
 ---
