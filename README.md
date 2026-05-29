@@ -64,7 +64,7 @@ De rode punten lichten de genen uit die zowel biologisch (grote expressieverschi
 
 De GO- en KEGG-analyse laten zien welke biologische processen en signaalroutes mogelijk betrokken zijn bij reumatoïde artritis. In de [dotplot](Resultaten/Goplot.png)  zijn meerdere ontstekings- en afweerprocessen zichtbaar die significant verschillen tussen de onderzochte groepen.
 
-
+In de Pathview-figuur [figuur](Resultaten/hsa05323.pathview.multi.png)van de NOD-like receptor-pathway is direct te zien welke genen up-gereguleerd (rood) of down-gereguleerd (grijs) zijn. Opvallend is dat ook de NF-kappa B- en MAPK-signaalroutes in deze visualisatie naar voren komen, wat aansluit bij de eerdere resultaten uit de GO-dotplot [dotplot](Resultaten/Goplot.png). Het belangrijkste resultaat dat hieruit naar voren komt, is dat de pro-inflammatoire effecten binnen dit systeem significant omhoog lijken te gaan.
 
 ## Conclusie:
 +- 200 woorden, inclusief aanbevelingen en onderzoek in context plaatsen.
