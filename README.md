@@ -58,7 +58,7 @@ Genoverrepresentatie-analyse is uitgevoerd met het **goseq** pakket (versie 1.62
 
 
 ## Resultaten
-+- 200 woorden, inclusief correcte verwijzingen.
+De resultaten van de differential gene analysis staan in de [volcanoplot](Resultaten/VolcanoplotCASUS.png).
 
 ## Conclusie:
 +- 200 woorden, inclusief aanbevelingen en onderzoek in context plaatsen.
