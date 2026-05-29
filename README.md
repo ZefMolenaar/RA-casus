@@ -5,7 +5,7 @@
 
 - `Assets/` - Overige documenten voor opmaak
 - `Bronnen/` - Gebruikte bronnen
-- `Data` – De gebruikte ruwe data
+- `Data` – De gebruikte ruwe data en verwerkte data
 - `Uitleg competentie beheren/` - Uitleg competentie beheren 
 - `Resultaten/` - Verkregen grafieken en tabellen
 - `Scripts/` – Gebruikte script om de transcriptomics-analyse mee uit te voeren
