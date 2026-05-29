@@ -62,7 +62,7 @@ De resultaten van de differential gene analysis staan in de [volcanoplot](Result
 
 De rode punten lichten de genen uit die zowel biologisch (grote expressieverschillen) als statistisch (significante p-waarde) relevant zijn. Genen zoals ANKRD30BL, MT-ND6 en SRGN vallen hierbij direct op; hun sterke afwijking suggereert een mogelijke rol bij de mechanismen achter reumatoïde artritis. De groene punten tonen genen die weliswaar een expressieverschil laten zien, maar de statistische zeggingskracht missen. Omdat de meeste genen zich in het midden van de grafiek clusteren, blijft de expressie voor het overgrote deel van het genoom gelijk tussen de groepen.
 
-De GO- en KEGG-analyse laten zien welke biologische processen en signaalroutes mogelijk betrokken zijn bij reumatoïde artritis. In de [dotplot](figuren/dotplotGO.png)  zijn meerdere ontstekings- en afweerprocessen zichtbaar die significant verschillen tussen de onderzochte groepen.
+De GO- en KEGG-analyse laten zien welke biologische processen en signaalroutes mogelijk betrokken zijn bij reumatoïde artritis. In de [dotplot](Resultaten/Goplot.png)  zijn meerdere ontstekings- en afweerprocessen zichtbaar die significant verschillen tussen de onderzochte groepen.
 
 
 
