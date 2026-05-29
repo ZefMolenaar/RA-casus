@@ -35,7 +35,7 @@ Er is gebruikgemaakt van acht synoviumbiopten: vier van ACPA-negatieve controlep
 ---
 
 ##🔬 RNA-seq Analyse
-De analyse van de sequencingdata is uitgevoerd in R. Met behulp van het pakket Rsubread (versie 2.24.0) (Liao et al., 2019) zijn de reads uitgelijnd op het humane referentiegenoom (GCF_000001405.40_GRCh38.p14_genomic). Vervolgens zijn de verkregen BAM-bestanden gesorteerd en geïndexeerd met het pakket Rsamtools (versie 2.26.0). Hierbij is gebruikgemaakt van het bijbehorende RefSeq GTF-annotatiebestand (versie GCF_000001405.40) van NCBI.
+De analyse van de sequencingdata is uitgevoerd in R. Met behulp van het pakket **Rsubread** (versie 2.24.0) [(Liao et al., 2019)](Bronnen/Liao2019.pdf) zijn de reads uitgelijnd op het humane referentiegenoom (GCF_000001405.40_GRCh38.p14_genomic). Vervolgens zijn de verkregen BAM-bestanden gesorteerd en geïndexeerd met het pakket **Rsamtools** (versie 2.26.0). Hierbij is gebruikgemaakt van het bijbehorende RefSeq GTF-annotatiebestand (versie GCF_000001405.40) van NCBI.
 
 
 
