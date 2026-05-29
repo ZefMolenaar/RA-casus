@@ -58,7 +58,13 @@ Genoverrepresentatie-analyse is uitgevoerd met het **goseq** pakket (versie 1.62
 
 
 ## Resultaten
-De resultaten van de differential gene analysis staan in de [volcanoplot](Resultaten/VolcanoplotCASUS.png).
+De resultaten van de differential gene analysis staan in de [volcanoplot](Resultaten/VolcanoplotCASUS.png). In deze grafiek staan de genen van de verschillende groepen. Op de horizontale as staat de log2 fold change, wat laat zien of een gen meer of minder tot expressie komt. Op de verticale as staat hoe significant het verschil is.
+
+De rode punten lichten de genen uit die zowel biologisch (grote expressieverschillen) als statistisch (significante p-waarde) relevant zijn. Genen zoals ANKRD30BL, MT-ND6 en SRGN vallen hierbij direct op; hun sterke afwijking suggereert een mogelijke rol bij de mechanismen achter reumatoïde artritis. De groene punten tonen genen die weliswaar een expressieverschil laten zien, maar de statistische zeggingskracht missen. Omdat de meeste genen zich in het midden van de grafiek clusteren, blijft de expressie voor het overgrote deel van het genoom gelijk tussen de groepen.
+
+De GO- en KEGG-analyse laten zien welke biologische processen en signaalroutes mogelijk betrokken zijn bij reumatoïde artritis. In de [dotplot](figuren/dotplotGO.png)  zijn meerdere ontstekings- en afweerprocessen zichtbaar die significant verschillen tussen de onderzochte groepen.
+
+
 
 ## Conclusie:
 +- 200 woorden, inclusief aanbevelingen en onderzoek in context plaatsen.
