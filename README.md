@@ -49,7 +49,11 @@ Er is op basis van de BAM-bestanden met **Rsubread** een count matrix gegenereer
 ## Pathway / Functieanalyse
 Genoverrepresentatie-analyse is uitgevoerd met het **goseq** pakket (versie 1.62.0) (https://cloud.wikis.utexas.edu/wiki/spaces/bioiteam/pages/47732482/GO+Enrichment+using+goseq). Deze pathview werd gevisualiseerd met de **pathview** (versie 1.50.0)
 
-Een flowchart is te vinden onder: [(Assets/flowchart - kopie.png)] (Assets/flowchart - kopie.png)
+<p align="center">
+  <img src="Assest/flowchart - kopie.png" alt="Flow" width="600"/>
+  
+  <em>Figuur 1: Flowchart van de uitgevoerde methode</em>
+</p>
 
 
 
