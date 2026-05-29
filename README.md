@@ -72,4 +72,4 @@ De KEGG-pathwaydiagram [figuur](Resultaten/hsa05323.pathview.multi.png)toont een
 De GO-enrichment-dotplot [dotplot](Resultaten/Goplot.png) toont significant verrijkte immuunprocessen. De x-as representeert het percentage 'hits' per categorie; de bolgrootte weerspiegelt het genaantal (Count). Processen rondom lymfocyten- en leukocytenactivatie vallen op door een lage p-waarde (donkerblauw/zwart, hoge significantie), wat duidt op een sterke activering van de adaptieve immuunrespons.
 
 ## Uitleg competentie beheren 
-In het bestand [competentie beheren](competentiebeheren) staat uitleg over wat deze GitHub pagina te maken heeft met de competentie beheren. 
+In het bestand [competentie beheren](competentie_beheren/competentie_beheren.docx) staat uitleg over wat deze GitHub pagina te maken heeft met de competentie beheren. 
