@@ -50,7 +50,7 @@ Er is op basis van de BAM-bestanden met **Rsubread** een count matrix gegenereer
 Genoverrepresentatie-analyse is uitgevoerd met het **goseq** pakket (versie 1.62.0) (https://cloud.wikis.utexas.edu/wiki/spaces/bioiteam/pages/47732482/GO+Enrichment+using+goseq). Deze pathview werd gevisualiseerd met de **pathview** (versie 1.50.0)
 
 <p align="center">
-  <img src="Assest/flowchart - kopie.png" alt="flowchart" width="600"/>
+  <img src="Assets/flowchart - kopie.png" alt="Assets/flowchart - kopie.png" width="600"/>
   
   <em>Figuur 1: Flowchart van de uitgevoerde methode</em>
 </p>
