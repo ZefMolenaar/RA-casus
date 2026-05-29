@@ -30,7 +30,8 @@ Aangezien de exacte oorzaak van RA nog niet volledig is opgehelderd, ligt de foc
 ## Methode:
 ##🧪 Materiaal en Methode
 
-Er is gebruikgemaakt van acht synoviumbiopten: vier van ACPA-negatieve controlepersonen zonder reumatoïde artritis (RA) en vier van ACPA-positieve (anti-CCP) patiënten met established RA (> 12 maanden na diagnose). De ruwe gegevens zijn te downloaden als zip-bestand onder: [Data.zip] (Data.zip).
+Er is gebruikgemaakt van acht synoviumbiopten: vier van ACPA-negatieve controlepersonen zonder reumatoïde artritis (RA) en vier van ACPA-positieve (anti-CCP) patiënten met established RA (> 12 maanden na diagnose). De ruwe gegevens zijn te downloaden als zip-bestand onder: [Data/bam files], [Data].
+
 
 ## Resultaten
 +- 200 woorden, inclusief correcte verwijzingen.
