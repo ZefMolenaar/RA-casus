@@ -152,10 +152,10 @@ library(pathview)
 
 pathview(
   gene.data = counts,
-  pathway.id = "hsa05323",  # KEGG ID voor Reumatoïde artritis – homo sapiens
-  species = "hsa",          # 'hsa' = homo sapiens in KEGG
-  gene.idtype = "SYMBOL",     # Geef aan dat het gene-symbol-ID's zijn
-  limit = list(gene = 5)    # Kleurbereik voor log2FC van -5 tot +5
+  pathway.id = "hsa05323",  
+  species = "hsa",          
+  gene.idtype = "SYMBOL",     
+  limit = list(gene = 5)    
 )
 keggLink("pathway", "hsa:05323")
 keggLink("hsa", "hsa:05323")
