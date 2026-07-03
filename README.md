@@ -53,7 +53,10 @@ Genoverrepresentatie-analyse is uitgevoerd met het **goseq** pakket (versie 1.62
 De resultaten van de differential gene analysis staan in de [volcanoplot](Resultaten/VolcanoplotCASUS.png). In deze grafiek staan de genen van de verschillende groepen. Op de horizontale as staat de log2 fold change, wat laat zien of een gen meer of minder tot expressie komt. Op de verticale as staat hoe significant het verschil is.
 
 <p align="center">
-  <img src="Resultaten/VolcanoplotCASUS - kopie.png" alt="Resultaten/VolcanoplotCASUS - kopie.png" width="600"/>
+  <img src="Resultaten/VolcanoplotCASUS.png" alt="Volcano Plot" width="600"/>
+</p>
+
+<sub>Figuur2. Volcano plot van de differentiële genexpressie tussen individuen met en zonder RA. De x-as toont de log2 fold change en de y-toont de –log10 van de adjusted p‑waarde. Genen met een hoge absolute log2 fold change en lage p‑waarde zijn significant verschillend tot expressie gebracht (weergegeven in het rood). Upregulated genen bevinden zich rechts van de lijn, terwijl downregulated genen zich links bevinden.
   
   <em>Figuur2. Volcano plot van de differentiële genexpressie tussen individuen met en zonder RA. De x-as toont de log2 fold change en de y-toont de –log10 van de adjusted p‑waarde. Genen met een hoge absolute log2 fold change en lage p‑waarde zijn significant verschillend tot expressie gebracht (weergegeven in het rood). Upregulated genen bevinden zich rechts van de lijn, terwijl downregulated genen zich links bevinden.</em>
 </p>
