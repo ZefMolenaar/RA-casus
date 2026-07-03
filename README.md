@@ -58,10 +58,6 @@ De resultaten van de differential gene analysis staan in de [volcanoplot](Result
 
 <sub>Figuur2. Volcano plot van de differentiële genexpressie tussen individuen met en zonder RA. De x-as toont de log2 fold change en de y-toont de –log10 van de adjusted p‑waarde. Genen met een hoge absolute log2 fold change en lage p‑waarde zijn significant verschillend tot expressie gebracht (weergegeven in het rood). Upregulated genen bevinden zich rechts van de lijn, terwijl downregulated genen zich links bevinden.
   
-  <em>Figuur2. Volcano plot van de differentiële genexpressie tussen individuen met en zonder RA. De x-as toont de log2 fold change en de y-toont de –log10 van de adjusted p‑waarde. Genen met een hoge absolute log2 fold change en lage p‑waarde zijn significant verschillend tot expressie gebracht (weergegeven in het rood). Upregulated genen bevinden zich rechts van de lijn, terwijl downregulated genen zich links bevinden.</em>
-</p>
-
-
 De rode punten lichten de genen uit die zowel biologisch (grote expressieverschillen) als statistisch (significante p-waarde) relevant zijn. Genen zoals ANKRD30BL, MT-ND6 en SRGN vallen hierbij direct op; hun sterke afwijking suggereert een mogelijke rol bij de mechanismen achter reumatoïde artritis. De groene punten tonen genen die weliswaar een expressieverschil laten zien, maar de statistische zeggingskracht missen. Omdat de meeste genen zich in het midden van de grafiek clusteren, blijft de expressie voor het overgrote deel van het genoom gelijk tussen de groepen.
 
 De GO- en KEGG-analyse laten zien welke biologische processen en signaalroutes mogelijk betrokken zijn bij reumatoïde artritis. In de [dotplot](Resultaten/Goplot.png)  zijn meerdere ontstekings- en afweerprocessen zichtbaar die significant verschillen tussen de onderzochte groepen.
