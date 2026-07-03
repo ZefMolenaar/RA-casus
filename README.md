@@ -26,25 +26,19 @@ Aangezien de exacte oorzaak van RA nog niet volledig is opgehelderd, ligt de foc
 
 
 
-## Materiaal en Methode
+# Materiaal en Methode
 
 Er is gebruikgemaakt van acht synoviumbiopten: vier van ACPA-negatieve controlepersonen zonder reumatoïde artritis (RA) en vier van ACPA-positieve (anti-CCP) patiënten met established RA (> 12 maanden na diagnose). De ruwe gegevens zijn te downloaden als zip-bestand onder: [Data/bam files], [Data].
 
----
-
-## RNA-seq Analyse
+RNA-seq Analyse
 
 De analyse van de sequencingdata is uitgevoerd in R. Met behulp van het pakket **Rsubread** (versie 2.24.0) [(Liao et al., 2019)](Bronnen/Liao2019.pdf) zijn de reads uitgelijnd op het humane referentiegenoom (GCF_000001405.40_GRCh38.p14_genomic). Vervolgens zijn de verkregen BAM-bestanden gesorteerd en geïndexeerd met het pakket **Rsamtools** (versie 2.26.0). Hierbij is gebruikgemaakt van het bijbehorende RefSeq GTF-annotatiebestand (versie GCF_000001405.40) van NCBI.
 
----
-
-## Genexpressieanalyse
+Genexpressieanalyse
 
 Er is op basis van de BAM-bestanden met **Rsubread** een count matrix gegenereerd. Er is gebruikgemaakt van het GTF-annotatiebestand dat hoort bij het gebruikte humane referentiegenoom. Daarnaast is de differentiële genexpressieanalyse is het pakket **DESeq2** (versie 1.50.2) [(Love et al., 2014)](Bronnen/Love2014.pdf) gebruikt. Visualisatie van de resultaten is gedaan met behulp van **EnhancedVolcano** (versie 1.28.2) waarmee een volcano plot is gemaakt.
 
----
-
-## Pathway / Functieanalyse
+Pathway / Functieanalyse
 Genoverrepresentatie-analyse is uitgevoerd met het **goseq** pakket (versie 1.62.0) (https://cloud.wikis.utexas.edu/wiki/spaces/bioiteam/pages/47732482/GO+Enrichment+using+goseq). Deze pathview werd gevisualiseerd met de **pathview** (versie 1.50.0)
 
 <p align="center">
@@ -58,6 +52,12 @@ Genoverrepresentatie-analyse is uitgevoerd met het **goseq** pakket (versie 1.62
 ## Resultaten
 De resultaten van de differential gene analysis staan in de [volcanoplot](Resultaten/VolcanoplotCASUS.png). In deze grafiek staan de genen van de verschillende groepen. Op de horizontale as staat de log2 fold change, wat laat zien of een gen meer of minder tot expressie komt. Op de verticale as staat hoe significant het verschil is.
 
+<p align="center">
+  <img src="Resultaten/VolcanoplotCASUS.png" alt="Volcano Plot" width="600"/>
+</p>
+
+<sub>Figuur2. Volcano plot van de differentiële genexpressie tussen individuen met en zonder RA. De x-as toont de log2 fold change en de y-toont de –log10 van de adjusted p‑waarde. Genen met een hoge absolute log2 fold change en lage p‑waarde zijn significant verschillend tot expressie gebracht (weergegeven in het rood). Upregulated genen bevinden zich rechts van de lijn, terwijl downregulated genen zich links bevinden.
+  
 De rode punten lichten de genen uit die zowel biologisch (grote expressieverschillen) als statistisch (significante p-waarde) relevant zijn. Genen zoals ANKRD30BL, MT-ND6 en SRGN vallen hierbij direct op; hun sterke afwijking suggereert een mogelijke rol bij de mechanismen achter reumatoïde artritis. De groene punten tonen genen die weliswaar een expressieverschil laten zien, maar de statistische zeggingskracht missen. Omdat de meeste genen zich in het midden van de grafiek clusteren, blijft de expressie voor het overgrote deel van het genoom gelijk tussen de groepen.
 
 De GO- en KEGG-analyse laten zien welke biologische processen en signaalroutes mogelijk betrokken zijn bij reumatoïde artritis. In de [dotplot](Resultaten/Goplot.png)  zijn meerdere ontstekings- en afweerprocessen zichtbaar die significant verschillen tussen de onderzochte groepen.
@@ -65,6 +65,8 @@ De GO- en KEGG-analyse laten zien welke biologische processen en signaalroutes m
 In de Pathview-figuur [figuur](Resultaten/hsa05323.pathview.multi.png)van de NOD-like receptor-pathway is direct te zien welke genen up-gereguleerd (rood) of down-gereguleerd (grijs) zijn. Opvallend is dat ook de NF-kappa B- en MAPK-signaalroutes in deze visualisatie naar voren komen, wat aansluit bij de eerdere resultaten uit de GO-dotplot [dotplot](Resultaten/Goplot.png). Het belangrijkste resultaat dat hieruit naar voren komt, is dat de pro-inflammatoire effecten binnen dit systeem significant omhoog lijken te gaan.
 
 ## Conclusie:
+Het onderzoek laat duidelijke expressieverschillen zien tussen RA-patiënten en gezonde individuen, wat de rol van immuunactivatie in pro-inflammatoire pathways bevestigt. Vanwege de kleine steekproef is vervolgonderzoek met grotere datasets en single-cell RNA-seq wenselijk. Ondanks deze beperking leveren de resultaten belangrijke nieuwe inzichten op in de moleculaire mechanismen achter RA.
+
 In de [volcanoplot](Resultaten/VolcanoplotCASUS.png) toont differentiële expressie van 29.407 variabelen. De rode stippen zijn biologisch en statistisch significant. Linksboven vallen de sterk downgereguleerde genen ANKRD30BL en MT-ND6 op door hun extreem hoge significantie. Rechtsboven tonen upgereguleerde genen, waaronder SRGN en immunoglobuline-gerelateerde genen (IGHV3-53), een duidelijke expressietoename.
 
 De KEGG-pathwaydiagram [figuur](Resultaten/hsa05323.pathview.multi.png)toont een sterke upregulatie (felrood, expressie\ge5) van genen binnen de pathologie van reumatoïde artritis. De data laat zien dat immuuncellen, cytokines (zoals IL6, TNF\alpha) en destructieve enzymen (MMP1/3) in het synovium massaal zijn geactiveerd, wat leidt tot gewrichtsontsteking en botafbraak.
