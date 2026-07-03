@@ -30,19 +30,13 @@ Aangezien de exacte oorzaak van RA nog niet volledig is opgehelderd, ligt de foc
 
 Er is gebruikgemaakt van acht synoviumbiopten: vier van ACPA-negatieve controlepersonen zonder reumatoïde artritis (RA) en vier van ACPA-positieve (anti-CCP) patiënten met established RA (> 12 maanden na diagnose). De ruwe gegevens zijn te downloaden als zip-bestand onder: [Data/bam files], [Data].
 
----
-
 ## RNA-seq Analyse
 
 De analyse van de sequencingdata is uitgevoerd in R. Met behulp van het pakket **Rsubread** (versie 2.24.0) [(Liao et al., 2019)](Bronnen/Liao2019.pdf) zijn de reads uitgelijnd op het humane referentiegenoom (GCF_000001405.40_GRCh38.p14_genomic). Vervolgens zijn de verkregen BAM-bestanden gesorteerd en geïndexeerd met het pakket **Rsamtools** (versie 2.26.0). Hierbij is gebruikgemaakt van het bijbehorende RefSeq GTF-annotatiebestand (versie GCF_000001405.40) van NCBI.
 
----
-
 ## Genexpressieanalyse
 
 Er is op basis van de BAM-bestanden met **Rsubread** een count matrix gegenereerd. Er is gebruikgemaakt van het GTF-annotatiebestand dat hoort bij het gebruikte humane referentiegenoom. Daarnaast is de differentiële genexpressieanalyse is het pakket **DESeq2** (versie 1.50.2) [(Love et al., 2014)](Bronnen/Love2014.pdf) gebruikt. Visualisatie van de resultaten is gedaan met behulp van **EnhancedVolcano** (versie 1.28.2) waarmee een volcano plot is gemaakt.
-
----
 
 ## Pathway / Functieanalyse
 Genoverrepresentatie-analyse is uitgevoerd met het **goseq** pakket (versie 1.62.0) (https://cloud.wikis.utexas.edu/wiki/spaces/bioiteam/pages/47732482/GO+Enrichment+using+goseq). Deze pathview werd gevisualiseerd met de **pathview** (versie 1.50.0)
